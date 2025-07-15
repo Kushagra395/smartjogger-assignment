@@ -41,6 +41,9 @@ function App() {
         
         <footer className="text-center text-gray-500 text-xs mt-10">
           &copy; {new Date().getFullYear()} Smart Jogger. All rights reserved.
+          <br/>
+          <br/>
+          made with ❤️ by <a className='text-blue-400' href="https://kushagra-portfolio-eta.vercel.app/">Kushagra Malviya</a>
         </footer>
       </div>
     </div>
