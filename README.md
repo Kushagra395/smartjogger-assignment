@@ -1,4 +1,6 @@
 ✅ Features of Smart Jogger (with Web APIs Used)
+
+
 🏃 Real-Time Speed Tracking
 → Uses the Geolocation API to calculate your live jogging speed based on GPS.
 
