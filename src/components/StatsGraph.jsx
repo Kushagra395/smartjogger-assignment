@@ -7,12 +7,12 @@ const StatsGraph = ({ actualSpeed }) => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const newTime = new Date().toLocaleTimeString().slice(3, 8); // mm:ss
+      const newTime = new Date().toLocaleTimeString().slice(3, 8);  
       const speed = parseFloat(actualSpeed || 0);
 
       setSpeedData((prev) => [...prev.slice(-9), speed]);
       setTimeData((prev) => [...prev.slice(-9), newTime]);
-    }, 3000); // every 3 seconds
+    }, 3000);  
 
     return () => clearInterval(interval);
   }, [actualSpeed]);
@@ -62,7 +62,7 @@ const StatsGraph = ({ actualSpeed }) => {
 
     ctx.stroke();
 
-    // Time Labels
+    
     ctx.fillStyle = "#94a3b8";
     ctx.font = "10px sans-serif";
 
@@ -71,7 +71,7 @@ const StatsGraph = ({ actualSpeed }) => {
       ctx.fillText(time, x - 10, height - 5);
     });
 
-    // Speed Labels
+     
     ctx.fillText("Speed (km/h)", 5, 10);
   }, [speedData, timeData]);
 

@@ -10,7 +10,7 @@ const HydrationTip = () => {
       ([entry]) => setIsVisible(entry.isIntersecting),
       {
         root: null,
-        threshold: 0.5, // 50% visibility to trigger
+        threshold: 0.5,  
       }
     );
 
