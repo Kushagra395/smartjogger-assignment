@@ -1,12 +1,25 @@
-# React + Vite
+🏃 Smart Jogger
+Your intelligent outdoor workout companion — built using real Web APIs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✅ Features of Smart Jogger
+🏃 Real-Time Speed Tracking
+Uses the Geolocation API to track your jogging speed live as you move.
 
-Currently, two official plugins are available:
+🗺️ Live Map with Jogging Route
+Displays your current location and trail using Leaflet.js and updates as you move.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📶 Internet Connection Monitor
+Detects the user’s network type (2G, 3G, 4G, etc.) using the Network Information API and displays connection quality.
 
-## Expanding the ESLint configuration
+💧 Hydration Reminder Based on Visibility
+When the hydration tip scrolls into view, it encourages you to drink water using the Intersection Observer API.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📊 Animated Speed Graph
+A live updating graph created with the Canvas API visualizes your jogging speed over time.
+
+🎨 Attractive, Responsive UI
+Built with Tailwind CSS and custom animations — dark-themed and mobile-friendly.
+
+⚡ Performance Optimized with Vite
+Instant loading, minimal build size, and blazing fast development experience.
+
